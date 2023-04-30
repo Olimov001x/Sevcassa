@@ -1,5 +1,42 @@
+//  UI KIT
 $aqua-clr: #2DD4BF;
 $blue-clr: #1E293B;
 $grey-clr: #E2E8F0;
 $linear-clr: linear-gradient(115.13deg, rgba(32, 130, 117, 0.3) 0%, rgba(45, 212, 191, 0.3) 100%);
 $coral-clr: #FF8A00;
+$black-clr: #000000;
+
+.heading1 {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    @include font(60, 500, 73, $black-clr);
+}
+
+.heading1 {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    @include font(35, 500, 42, $black-clr);
+}
+
+.desciption {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    @include font(20, 500, 30, $black-clr);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
